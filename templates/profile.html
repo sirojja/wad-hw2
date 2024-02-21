@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles_profile.css') }}">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <h1>Info about dinosaur</h1>
+            <p>Welcome, <span>{{ username }}</span>!</p>
+        </div>
+        <div class="profile-info">
+            <img src="{{ url_for('static', filename='dino.jpeg') }}" alt="Profile Picture" class="profile-pic">
+            <div class="personal-info">
+                <h2>Arkady</h2>
+                <p>Email: dino@dino.com</p>
+                <p>Location: Saratov</p>
+            </div>
+        </div>
+        <div class="welcome-message">
+            <p>This is the profile page of a dinosaur named Arkady. Only authenticated users can view it.</p>
+        </div>
+        <div class="logout-button">
+            <a href="{{ url_for('logout') }}" class="logout-link">Logout</a>
+        </div>
+    </div>
+</body>
+</html>

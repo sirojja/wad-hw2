@@ -1,0 +1,63 @@
+body {
+    background-color: #e6f7e9; /* Светло-зеленый фон */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.profile-header {
+    background-color: #2e7d32; /* Темно-зеленый заголовок */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.personal-info {
+    text-align: left;
+}
+
+.welcome-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dcedc8; /* Пастельно-зеленый фон для сообщения */
+    border-radius: 5px;
+}
+
+.logout-button {
+    margin-top: 20px;
+}
+
+.logout-link {
+    background-color: #43a047; /* Зеленая кнопка Logout */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.logout-link:hover {
+    background-color: #388e3c; /* Темно-зеленая кнопка при наведении */
+}
